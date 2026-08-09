@@ -77,4 +77,9 @@
       remote="6150-lab"
       revision="alpha-16.2" />
 
+  <!-- Interfaces -->
+  <project
+    name="AlphaDroid-Project/hardware_pixelworks_interfaces"
+    path="hardware/pixelworks/interfaces"
+    revision="alpha-16.2" />
 </manifest>
