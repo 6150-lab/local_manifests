@@ -16,13 +16,13 @@
       path="device/xiaomi/sweet"
       name="device_xiaomi_sweet"
       remote="6150-lab"
-      revision="alpha-16.2" />
+      revision="inf" />
 
   <project
       path="device/xiaomi/sm6150-common"
       name="device_xiaomi_sm6150-common"
       remote="6150-lab"
-      revision="alpha-16.2" />
+      revision="inf" />
 
   <!-- Vendor blobs -->
   <project
