@@ -77,9 +77,16 @@
       remote="6150-lab"
       revision="alpha-16.2" />
 
+  <!-- ViPERFX -->
+  <project
+      path="packages/apps/ViPER4AndroidFX"
+      name="packages_apps_ViPER4AndroidFX"
+      remote="6150-lab"
+      revision="17" />
+
   <!-- Interfaces -->
   <project
-    name="AlphaDroid-Project/hardware_pixelworks_interfaces"
-    path="hardware/pixelworks/interfaces"
-    revision="alpha-16.2" />
+      name="AlphaDroid-Project/hardware_pixelworks_interfaces"
+      path="hardware/pixelworks/interfaces"
+      revision="alpha-16.2" />
 </manifest>
