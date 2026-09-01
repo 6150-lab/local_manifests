@@ -6,6 +6,11 @@
       name="6150-lab"
       fetch="https://github.com/6150-lab/" />
 
+  <!-- stahed-sweet-lab -->
+  <remote
+      name="stahed-sweet-lab"
+      fetch="https://github.com/stahed-sweet-lab/" />
+
   <!-- Other sources -->
   <remote
       name="gh"
@@ -64,12 +69,12 @@
       remote="6150-lab"
       revision="alpha-16.2" />
 
-  <!-- Dolby -->
+  <!-- XiaomiDolby -->
   <project
-      path="packages/apps/LunarisDolby"
-      name="packages_apps_LunarisDolby"
-      remote="6150-lab"
-      revision="alpha-16.2" />
+        path="packages/apps/XiaomiDolby"
+        name="packages_apps_XiaomiDolby"
+        remote="stahed-sweet-lab"
+        revision="16.2" />
 
   <project
       path="vendor/sony/dolby"
