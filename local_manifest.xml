@@ -1,32 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Remotes -->
-  <remote name="gh" fetch="https://github.com/" />
-  <remote name="cb" fetch="https://codeberg.org/" />
 
-  <!-- Device trees -->
-  <project path="device/xiaomi/sweet" name="SoulEye-sweet/device_xiaomi_sweet" remote="gh" revision="cnb" />
-  <project path="device/xiaomi/sm6150-common" name="SoulEye-sweet/device_xiaomi_sm6150-common" remote="gh" revision="cnb" />
-  <project path="device/xiaomi/miuicamera-sweet" name="SoulEye-sweet/device_xiaomi_miuicamera-sweet" remote="gh" revision="bq2" />
+    <remote
+        name="6150-lab"
+        fetch="https://github.com/6150-lab/" />
 
-  <!-- Vendor blobs -->
-  <project path="vendor/xiaomi/sweet" name="SoulEye-sweet/vendor_xiaomi_sweet" remote="cb" revision="bq2" />
-  <project path="vendor/xiaomi/sm6150-common" name="SoulEye-sweet/vendor_xiaomi_sm6150-common" remote="cb" revision="cnb" />
-  <project path="vendor/xiaomi/miuicamera-sweet" name="SoulEye-sweet/vendor_xiaomi_miuicamera-sweet" remote="cb" revision="bq2" />
+    <project name="device_xiaomi_sweet"
+             path="device/xiaomi/sweet"
+             remote="6150-lab"
+             revision="inf" />
 
-  <!-- Kernel -->
-  <project path="kernel/xiaomi/sm6150" name="tbyool/android_kernel_xiaomi_sm6150" remote="gh" revision="17.0" />
+    <project name="device_xiaomi_sm6150-common"
+             path="device/xiaomi/sm6150-common"
+             remote="6150-lab"
+             revision="inf" />
 
-  <!-- Hardware -->
-  <project path="hardware/xiaomi" name="SoulEye-sweet/hardware_xiaomi" remote="gh" revision="bq2" />
+    <project name="packages_apps_LunarisDolby"
+             path="packages/apps/LunarisDolby"
+             remote="6150-lab"
+             revision="17" />
 
-  <!-- Packages apps -->
-  <project path="packages/apps/ViPER4AndroidFX" name="SoulEye-sweet/packages_apps_ViPER4AndroidFX" remote="gh" revision="bq2" />
+    <project name="vendor_xiaomi_dolby"
+             path="vendor/xiaomi/dolby"
+             remote="6150-lab"
+             revision="17" />
 
-  <!-- Dolby -->
-  <project path="packages/apps/LunarisDolby" name="SoulEye-sweet/packages_apps_LunarisDolby" remote="gh" revision="bq2" />
-  <project path="vendor/sony/dolby" name="SoulEye-sweet/vendor_sony_dolby" remote="cb" revision="bq2" />
+    <project name="vendor_xiaomi_sweet"
+             path="vendor/xiaomi/sweet"
+             remote="6150-lab"
+             revision="17" />
 
-  <!-- Vendor keys -->
-  <project path="vendor/evolution-priv/keys" name="SoulEye-sweet/vendor_evolution-priv_keys" remote="gh" revision="cnb" />
+    <project name="hardware_xiaomi"
+             path="hardware/xiaomi"
+             remote="6150-lab"
+             revision="17" />
+
+    <project name="kernel_xiaomi_sm6150"
+             path="kernel/xiaomi/sm6150"
+             remote="6150-lab"
+             revision="reforge" />
+
+    <project name="vendor_xiaomi_sm6150-common"
+             path="vendor/xiaomi/sm6150-common"
+             remote="6150-lab"
+             revision="17" />
+
+    <project name="vendor_xiaomi_miuicamera"
+             path="vendor/xiaomi/miuicamera"
+             remote="6150-lab"
+             revision="17" />
+
+    <remove-project name="packages_apps_Updater" />
+
+    <project name="packages_apps_Updater"
+             path="packages/apps/Updater"
+             remote="6150-lab"
+             revision="17" />
+
 </manifest>
