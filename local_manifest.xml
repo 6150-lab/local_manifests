@@ -16,70 +16,57 @@
         path="device/xiaomi/sm6150-common"
         name="device_xiaomi_sm6150-common"
         remote="6150-lab"
-        revision="17" />
+        revision="derp" />
 
     <!-- Vendor -->
     <project
         path="vendor/xiaomi/sweet"
         name="vendor_xiaomi_sweet"
         remote="6150-lab"
-        revision="17" />
+        revision="derp" />
 
     <project
         path="vendor/xiaomi/sm6150-common"
         name="vendor_xiaomi_sm6150-common"
         remote="6150-lab"
-        revision="17" />
+        revision="derp" />
 
     <project
-        path="vendor/xiaomi/miuicamera-sweet"
-        name="vendor_xiaomi_miuicamera-sweet"
+        path="vendor/miuicamera-sweet"
+        name="vendor_miuicamera-sweet"
         remote="6150-lab"
-        revision="17" />
+        revision="derp" />
 
     <!-- Kernel -->
     <project
         path="kernel/xiaomi/sm6150"
-        name="kernel_xiaomi_sm6150"
+        name="android_kernel_xiaomi_sm6150"
         remote="6150-lab"
-        revision="17" />
+        revision="17.0" />
 
     <!-- Hardware -->
     <project
         path="hardware/xiaomi"
         name="hardware_xiaomi"
         remote="6150-lab"
-        revision="17" />
-
-    <!-- Apps -->
-    <project
-        path="packages/apps/GameBar"
-        name="packages_apps_GameBar"
-        remote="6150-lab"
-        revision="17" />
+        revision="derp" />
 
     <project
-        path="packages/apps/LunarisDolby"
-        name="packages_apps_LunarisDolby"
+        path="packages/apps/XiaomiDolby"
+        name="packages_apps_XiaomiDolby"
         remote="6150-lab"
-        revision="17" />
+        revision="derp" />
 
     <project
         path="packages/apps/ViPER4AndroidFX"
         name="packages_apps_ViPER4AndroidFX"
         remote="6150-lab"
-        revision="17" />
+        revision="derp" />
 
     <!-- Dolby -->
     <project
         path="vendor/sony/dolby"
         name="vendor_sony_dolby"
         remote="6150-lab"
-        revision="17" />
-
-    <project
-        path="packages/apps/KProfiles"
-        name="packages_apps_KProfiles"
-        remote="6150-lab"
-        revision="17" />
+        revision="derp" />
 </manifest>
