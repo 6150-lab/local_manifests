@@ -1,72 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
     <remote
         name="6150-lab"
         fetch="https://github.com/6150-lab/" />
 
     <!-- Device -->
-    <project
-        path="device/xiaomi/sweet"
+    <project path="device/xiaomi/sweet"
         name="device_xiaomi_sweet"
         remote="6150-lab"
         revision="derp" />
 
-    <project
-        path="device/xiaomi/sm6150-common"
+    <project path="device/xiaomi/sm6150-common"
         name="device_xiaomi_sm6150-common"
         remote="6150-lab"
         revision="derp" />
 
     <!-- Vendor -->
-    <project
-        path="vendor/xiaomi/sweet"
-        name="vendor_xiaomi_sweet"
+    <project path="vendor/oneplus/dolby"
+        name="vendor_oneplus_dolby"
         remote="6150-lab"
         revision="derp" />
 
-    <project
-        path="vendor/xiaomi/sm6150-common"
-        name="vendor_xiaomi_sm6150-common"
-        remote="6150-lab"
-        revision="derp" />
-
-    <project
-        path="vendor/miuicamera-sweet"
+    <project path="vendor/miuicamera-sweet"
         name="vendor_miuicamera-sweet"
         remote="6150-lab"
         revision="derp" />
 
-    <!-- Kernel -->
-    <project
-        path="kernel/xiaomi/sm6150"
+    <project path="vendor/xiaomi/sweet"
+        name="vendor_xiaomi_sweet"
+        remote="6150-lab"
+        revision="derp" />
+
+    <project path="vendor/xiaomi/sm6150-common"
+        name="vendor_xiaomi_sm6150-common"
+        remote="6150-lab"
+        revision="derp" />
+
+    <project path="vendor/bcr"
+        name="vendor_bcr"
+        remote="6150-lab"
+        revision="main" />
+
+    <!-- Kernel fork -->
+    <project path="kernel/xiaomi/sm6150"
         name="android_kernel_xiaomi_sm6150"
         remote="6150-lab"
         revision="17.0" />
 
     <!-- Hardware -->
-    <project
-        path="hardware/xiaomi"
+    <project path="hardware/xiaomi"
         name="hardware_xiaomi"
         remote="6150-lab"
         revision="derp" />
 
-    <project
-        path="packages/apps/XiaomiDolby"
-        name="packages_apps_XiaomiDolby"
-        remote="6150-lab"
-        revision="derp" />
-
-    <project
-        path="packages/apps/ViPER4AndroidFX"
-        name="packages_apps_ViPER4AndroidFX"
-        remote="6150-lab"
-        revision="derp" />
-
-    <!-- Dolby -->
-    <project
-        path="vendor/sony/dolby"
-        name="vendor_sony_dolby"
+    <!-- App -->
+    <project path="packages/apps/LunarisDolby"
+        name="packages_apps_LunarisDolby"
         remote="6150-lab"
         revision="derp" />
 </manifest>
