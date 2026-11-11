@@ -35,8 +35,8 @@
     <!-- MIUI Camera -->
 
     <project
-        path="vendor/miuicamera-sweet"
-        name="vendor_miuicamera-sweet"
+        path="vendor/xiaomi/miuicamera"
+        name="vendor_xiaomi_miuicamera"
         remote="6150-lab"
         revision="derp" />
 
@@ -52,25 +52,18 @@
         path="kernel/xiaomi/sm6150"
         name="kernel_xiaomi_sm6150"
         remote="6150-lab"
-        revision="vantom-ksun-17" />
+        revision="perf-ksun" />
 
     <!-- Dolby -->
     <project
-        path="vendor/sony/dolby"
-        name="vendor_sony_dolby"
+        path="vendor/xiaomi/dolby"
+        name="vendor_xiaomi_dolby"
         remote="6150-lab"
         revision="derp" />
 
     <project
         path="packages/apps/LunarisDolby"
         name="packages_apps_LunarisDolby"
-        remote="6150-lab"
-        revision="derp" />
-
-    <!-- ViPER4AndroidFX -->
-    <project
-        path="packages/apps/ViPER4AndroidFX"
-        name="packages_apps_ViPER4AndroidFX"
         remote="6150-lab"
         revision="derp" />
 
