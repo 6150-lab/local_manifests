@@ -6,66 +6,70 @@
         name="6150-lab"
         fetch="https://github.com/6150-lab" />
 
+    <!-- Codeberg -->
+    <remote
+        name="codeberg"
+        fetch="https://codeberg.org/sm6150-dreams" />
+
     <!-- Device -->
     <project
         path="device/xiaomi/sweet"
         name="device_xiaomi_sweet"
         remote="6150-lab"
-        revision="derp" />
+        revision="mist" />
 
     <project
         path="device/xiaomi/sm6150-common"
         name="device_xiaomi_sm6150-common"
         remote="6150-lab"
-        revision="derp" />
+        revision="mist" />
 
     <!-- Vendor -->
     <project
         path="vendor/xiaomi/sm6150-common"
         name="vendor_xiaomi_sm6150-common"
         remote="6150-lab"
-        revision="derp" />
+        revision="mist" />
 
     <project
         path="vendor/xiaomi/sweet"
         name="vendor_xiaomi_sweet"
         remote="6150-lab"
-        revision="derp" />
+        revision="mist" />
 
     <!-- MIUI Camera -->
-
     <project
-        path="vendor/xiaomi/miuicamera"
-        name="vendor_xiaomi_miuicamera"
-        remote="6150-lab"
-        revision="derp" />
+        path="vendor/miuicamera-sweet"
+        name="vendor_miuicamera-sweet"
+        remote="codeberg"
+        revision="mist" />
 
     <!-- Hardware Xiaomi -->
     <project
         path="hardware/xiaomi"
         name="hardware_xiaomi"
         remote="6150-lab"
-        revision="derp" />
+        revision="mist" />
 
     <!-- Kernel -->
     <project
         path="kernel/xiaomi/sm6150"
-        name="kernel_xiaomi_sm6150"
+        name="android_kernel_xiaomi_sm6150"
         remote="6150-lab"
-        revision="perf-ksun" />
+        revision="17.0" />
 
     <!-- Dolby -->
     <project
-        path="vendor/xiaomi/dolby"
-        name="vendor_xiaomi_dolby"
+        path="vendor/sony/dolby"
+        name="vendor_sony_dolby"
         remote="6150-lab"
-        revision="derp" />
+        revision="mist" />
 
     <project
         path="packages/apps/LunarisDolby"
         name="packages_apps_LunarisDolby"
         remote="6150-lab"
-        revision="derp" />
+        revision="mist" />
 
     <!-- Bcr -->
     <project
