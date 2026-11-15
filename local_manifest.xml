@@ -9,47 +9,47 @@
     <!-- Codeberg -->
     <remote
         name="codeberg"
-        fetch="https://codeberg.org/sm6150-dreams" />
+        fetch="https://codeberg.org/" />
 
     <!-- Device -->
     <project
         path="device/xiaomi/sweet"
         name="device_xiaomi_sweet"
         remote="6150-lab"
-        revision="mist" />
+        revision="derp" />
 
     <project
         path="device/xiaomi/sm6150-common"
         name="device_xiaomi_sm6150-common"
         remote="6150-lab"
-        revision="mist" />
+        revision="derp" />
 
     <!-- Vendor -->
     <project
         path="vendor/xiaomi/sm6150-common"
         name="vendor_xiaomi_sm6150-common"
         remote="6150-lab"
-        revision="mist" />
+        revision="derp" />
 
     <project
         path="vendor/xiaomi/sweet"
         name="vendor_xiaomi_sweet"
         remote="6150-lab"
-        revision="mist" />
+        revision="derp" />
 
     <!-- MIUI Camera -->
     <project
         path="vendor/miuicamera-sweet"
         name="sm6150-dreams/vendor_miuicamera-sweet"
         remote="codeberg"
-        revision="mist" />
+        revision="derp" />
 
     <!-- Hardware Xiaomi -->
     <project
         path="hardware/xiaomi"
         name="hardware_xiaomi"
         remote="6150-lab"
-        revision="mist" />
+        revision="derp" />
 
     <!-- Kernel -->
     <project
@@ -63,13 +63,13 @@
         path="vendor/sony/dolby"
         name="vendor_sony_dolby"
         remote="6150-lab"
-        revision="mist" />
+        revision="derp" />
 
     <project
         path="packages/apps/LunarisDolby"
         name="packages_apps_LunarisDolby"
         remote="6150-lab"
-        revision="mist" />
+        revision="derp" />
 
     <!-- Bcr -->
     <project
@@ -77,6 +77,13 @@
         name="vendor_bcr"
         remote="6150-lab"
         revision="main" />
+
+    <!-- Viper -->
+    <project
+        path="packages/apps/ViPER4AndroidFX"
+        name="packages_apps_ViPER4AndroidFX"
+        remote="6150-lab"
+        revision="derp" />
 
 </manifest>
 
