@@ -16,13 +16,13 @@
         path="device/xiaomi/sweet"
         name="device_xiaomi_sweet"
         remote="6150-lab"
-        revision="derp" />
+        revision="rr-17.0" />
 
     <project
         path="device/xiaomi/sm6150-common"
         name="device_xiaomi_sm6150-common"
         remote="6150-lab"
-        revision="derp" />
+        revision="rr-17.0" />
 
     <!-- Vendor -->
     <project
@@ -83,7 +83,7 @@
         path="packages/apps/ViPER4AndroidFX"
         name="packages_apps_ViPER4AndroidFX"
         remote="6150-lab"
-        revision="derp" />
+        revision="17" />
 
 </manifest>
 
