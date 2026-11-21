@@ -8,8 +8,8 @@
 
     <!-- Codeberg -->
     <remote
-        name="codeberg"
-        fetch="https://codeberg.org/" />
+        name="codeberg-sm6150"
+        fetch="https://codeberg.org/sm6150-dreams/" />
 
     <!-- Device -->
     <project
@@ -40,8 +40,8 @@
     <!-- MIUI Camera -->
     <project
         path="vendor/miuicamera-sweet"
-        name="sm6150-dreams/vendor_miuicamera-sweet"
-        remote="codeberg"
+        name="vendor_miuicamera-sweet"
+        remote="codeberg-sm6150"
         revision="derp" />
 
     <!-- Hardware Xiaomi -->
